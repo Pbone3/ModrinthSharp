@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ModrinthSharp.v2.Models
+namespace ModrinthSharp.v2.DataStructures
 {
     public class ModrinthGalleryImageV2
     {

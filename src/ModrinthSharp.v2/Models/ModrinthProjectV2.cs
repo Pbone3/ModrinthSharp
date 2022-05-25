@@ -1,11 +1,11 @@
 ﻿using ModrinthSharp.Core.Enums;
+using ModrinthSharp.Core.Models;
+using ModrinthSharp.v2.DataStructures;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ModrinthSharp.v2.Models
 {
-    public class ModrinthProjectV2
+    public class ModrinthProjectV2 : ModrinthProject
     {
         public readonly string Id;
         public readonly string Slug;
@@ -61,6 +61,7 @@ namespace ModrinthSharp.v2.Models
             Followers = followers;
             Categories = categories;
             Versions = versions;
+            
             ModeratorMessage = moderatorMessage;
             License = license;
             IconUrl = iconUrl;
@@ -70,7 +71,10 @@ namespace ModrinthSharp.v2.Models
             DiscordUrl = discordUrl;
             DonationUrls = donationUrls;
             Gallery = gallery;
+            
+#pragma warning disable CS0618 // Type or member is obsolete
             BodyUrl = bodyUrl;
+#pragma warning restore CS0618 // Type or member is obsolete
         }
     }
 }

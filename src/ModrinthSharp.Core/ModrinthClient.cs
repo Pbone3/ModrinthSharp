@@ -1,12 +1,7 @@
 ﻿using ModrinthSharp.Core.Base;
-using ModrinthSharp.Core.DataStructures;
-using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
-using System.Collections.Generic;
 using System.Net.Http;
-using System.Runtime.CompilerServices;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ModrinthSharp.Core

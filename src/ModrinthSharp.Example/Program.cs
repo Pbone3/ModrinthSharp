@@ -1,7 +1,5 @@
 ﻿using ModrinthSharp.Core;
 using ModrinthSharp.Core.Base;
-using ModrinthSharp.Core.DataStructures;
-using ModrinthSharp.Core.Models;
 using ModrinthSharp.v2;
 using ModrinthSharp.v2.Models;
 using System;
@@ -12,7 +10,7 @@ namespace ModrinthSharp.Example
 {
     public static class Program
     {
-        public static async Task Main(string[] args)
+        public static async Task Main()
         {
             using ModrinthClient modrinth = new ModrinthClientV2();
 

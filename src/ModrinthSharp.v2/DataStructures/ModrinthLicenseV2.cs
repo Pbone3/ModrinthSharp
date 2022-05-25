@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ModrinthSharp.v2.Models
+﻿namespace ModrinthSharp.v2.DataStructures
 {
     public class ModrinthLicenseV2
     {

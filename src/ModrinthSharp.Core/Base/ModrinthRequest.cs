@@ -1,5 +1,4 @@
-﻿using ModrinthSharp.Core.DataStructures;
-using System.Net.Http;
+﻿using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace ModrinthSharp.Core.Base

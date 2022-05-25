@@ -1,6 +1,6 @@
 ﻿namespace ModrinthSharp.Core.Models
 {
-    public abstract class ModrinthProject
+    public abstract class ModrinthTeamMember
     {
     }
 }
