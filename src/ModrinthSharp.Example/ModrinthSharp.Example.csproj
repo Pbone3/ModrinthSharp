@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ModrinthSharp.Core\ModrinthSharp.Core.csproj" />
+    <ProjectReference Include="..\ModrinthSharp.v2\ModrinthSharp.v2.csproj" />
+  </ItemGroup>
+
+</Project>
